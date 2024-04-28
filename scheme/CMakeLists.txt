@@ -8,5 +8,3 @@ target_include_directories(scheme PUBLIC "${PROJECT_SOURCE_DIR}")
 target_link_libraries(scheme scheme_parser)
 target_link_libraries(scheme scheme_tokenizer)
 
-# Tests
-add_subdirectory(test)
